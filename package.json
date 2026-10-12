@@ -1,0 +1,44 @@
+{
+  "name": "calendarofallcalendars",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo/config-plugins": "~56.0.0",
+    "@expo/metro-runtime": "~56.0.13",
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/datetimepicker": "^8.1.1",
+    "@react-native-community/slider": "5.2.0",
+    "@react-native-google-signin/google-signin": "^8.2.2",
+    "@types/react": "~19.2.14",
+    "expo": "^56.0.8",
+    "expo-auth-session": "^56.0.12",
+    "expo-clipboard": "~56.0.3",
+    "expo-constants": "^56.0.16",
+    "expo-dev-client": "^56.0.16",
+    "expo-device": "~56.0.4",
+    "expo-font": "~56.0.5",
+    "expo-notifications": "^56.0.14",
+    "expo-web-browser": "~56.0.5",
+    "firebase": "^12.13.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-calendars": "^1.1314.0",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-web": "^0.21.2",
+    "typescript": "~6.0.3"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.3",
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "private": true
+}
